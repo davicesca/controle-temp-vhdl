@@ -1,0 +1,51 @@
+# do ControleTemp.do 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ControleTemp
+# 
+# Top level modules:
+# 	ControleTemp
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ControleTemp_vlg_sample_tst
+# -- Compiling module ControleTemp_vlg_check_tst
+# -- Compiling module ControleTemp_vlg_vec_tst
+# 
+# Top level modules:
+# 	ControleTemp_vlg_vec_tst
+# vsim -L max7000s_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -t 1ps -novopt work.ControleTemp_vlg_vec_tst 
+# Loading work.ControleTemp_vlg_vec_tst
+# Loading work.ControleTemp
+# Loading max7000s_ver.max_io
+# Loading max7000s_ver.max_asynch_io
+# Loading max7000s_ver.max_mcell
+# Loading max7000s_ver.max_asynch_mcell
+# Loading max7000s_ver.max_mcell_register
+# Loading max7000s_ver.max_sexp
+# Loading max7000s_ver.max_asynch_sexp
+# Loading work.ControleTemp_vlg_sample_tst
+# Loading work.ControleTemp_vlg_check_tst
+# ERROR! Vector Mismatch for output port segmentos[0] :: @time = 14000.000 ps
+#      Expected value = 0000000
+#      Real value = 0110011
+# ERROR! Vector Mismatch for output port segmentos[1] :: @time = 14000.000 ps
+#      Expected value = 0000000
+#      Real value = 0110011
+# ERROR! Vector Mismatch for output port segmentos[4] :: @time = 14000.000 ps
+#      Expected value = 0000000
+#      Real value = 0110011
+# ERROR! Vector Mismatch for output port segmentos[5] :: @time = 14000.000 ps
+#      Expected value = 0000000
+#      Real value = 0110011
+# ERROR! Vector Mismatch for output port segmentos[2] :: @time = 18000.000 ps
+#      Expected value = 0000000
+#      Real value = 1111110
+# ERROR! Vector Mismatch for output port segmentos[3] :: @time = 18000.000 ps
+#      Expected value = 0000000
+#      Real value = 1111110
+# ERROR! Vector Mismatch for output port segmentos[6] :: @time = 18000.000 ps
+#      Expected value = 0000000
+#      Real value = 1111110
+#           7 mismatched vectors : Simulation failed !
+# ** Note: $finish    : ControleTemp.vt(362)
+#    Time: 100 ns  Iteration: 0  Instance: /ControleTemp_vlg_vec_tst/tb_out

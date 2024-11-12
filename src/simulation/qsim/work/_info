@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Programas\altera\13.0sp1\projects\ControleTemp\simulation\qsim
+vControleTemp
+Z1 IQ8eh6o8KSPjHRA^Di@I_90
+Z2 V_[<fan1BSD`oHFSJ14JoC2
+Z3 dD:\Programas\altera\13.0sp1\projects\ControleTemp\simulation\qsim
+Z4 w1730627246
+Z5 8ControleTemp.vo
+Z6 FControleTemp.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|ControleTemp.vo|
+Z9 o-work work -O0
+Z10 n@controle@temp
+!i10b 1
+Z11 !s100 IVScjYHGG_gi=f__EW?bN2
+!s85 0
+Z12 !s108 1730627247.167000
+Z13 !s107 ControleTemp.vo|
+!s101 -O0
+vControleTemp_vlg_check_tst
+!i10b 1
+Z14 !s100 EKzo:[Lz@:V8`LiBPQJ_>1
+Z15 I5M5[GcZUNhiiMFkQ[c7PU1
+Z16 VSYh?oR=kedEoz;LniV[J33
+R3
+R4
+Z17 8ControleTemp.vt
+Z18 FControleTemp.vt
+L0 67
+R7
+r1
+!s85 0
+31
+Z19 !s108 1730627247.364000
+Z20 !s107 ControleTemp.vt|
+Z21 !s90 -work|work|ControleTemp.vt|
+!s101 -O0
+R9
+Z22 n@controle@temp_vlg_check_tst
+vControleTemp_vlg_sample_tst
+!i10b 1
+Z23 !s100 0>8DN8HeBLbg1YME:nDR40
+Z24 ISeof=7oZ0[Bfa>BlkGWBb2
+Z25 VifmTnY;3njhPJSYV^7[4P2
+R3
+R4
+R17
+R18
+L0 29
+R7
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R9
+Z26 n@controle@temp_vlg_sample_tst
+vControleTemp_vlg_vec_tst
+!i10b 1
+Z27 !s100 ?QE>H<NL6bhZ1iWH9FBHA1
+Z28 IBB8R?Z`7@a[h4R?KTf0Ib1
+Z29 Vm2n]oF0m;>_UmobEoHfc23
+R3
+R4
+R17
+R18
+Z30 L0 366
+R7
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R9
+Z31 n@controle@temp_vlg_vec_tst

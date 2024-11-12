@@ -1,0 +1,1055 @@
+$comment
+	File created using the following command:
+		vcd file ControleTemp.msim.vcd -direction
+$end
+$date
+	Sun Nov 03 06:47:27 2024
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module ControleTemp_vlg_vec_tst $end
+$var reg 1 ! clk $end
+$var reg 1 " desativar $end
+$var reg 1 # reset $end
+$var reg 6 $ temp_ac [5:0] $end
+$var reg 6 % temp_in [5:0] $end
+$var reg 1 & tipo $end
+$var wire 1 ' acionamento $end
+$var wire 1 ( display [3] $end
+$var wire 1 ) display [2] $end
+$var wire 1 * display [1] $end
+$var wire 1 + display [0] $end
+$var wire 1 , segmentos [6] $end
+$var wire 1 - segmentos [5] $end
+$var wire 1 . segmentos [4] $end
+$var wire 1 / segmentos [3] $end
+$var wire 1 0 segmentos [2] $end
+$var wire 1 1 segmentos [1] $end
+$var wire 1 2 segmentos [0] $end
+$var wire 1 3 sol_dp_bug $end
+$var wire 1 4 sampler $end
+$scope module i1 $end
+$var wire 1 5 gnd $end
+$var wire 1 6 vcc $end
+$var wire 1 7 unknown $end
+$var wire 1 8 clk~dataout $end
+$var wire 1 9 ~GND~0~dataout $end
+$var wire 1 : reset~dataout $end
+$var wire 1 ; div_clk~dataout $end
+$var wire 1 < display~6_dataout $end
+$var wire 1 = display~8_dataout $end
+$var wire 1 > display~10_dataout $end
+$var wire 1 ? display~11_dataout $end
+$var wire 1 @ desativar~dataout $end
+$var wire 1 A tipo~dataout $end
+$var wire 1 B process_0~48_pexpout $end
+$var wire 1 C process_0~25_dataout $end
+$var wire 1 D process_0~44_pexpout $end
+$var wire 1 E process_0~26_dataout $end
+$var wire 1 F process_0~27_dataout $end
+$var wire 1 G process_0~29_dataout $end
+$var wire 1 H process_0~28_dataout $end
+$var wire 1 I process_0~30_dataout $end
+$var wire 1 J process_0~36_dataout $end
+$var wire 1 K LessThan1~5sexp1_dataout $end
+$var wire 1 L LessThan1~5sexp2_dataout $end
+$var wire 1 M process_0~42_dataout $end
+$var wire 1 N Mux10~17bal_dataout $end
+$var wire 1 O Mux10~32_pexpout $end
+$var wire 1 P Mux10~38_pexpout $end
+$var wire 1 Q Mux10~10_dataout $end
+$var wire 1 R Mux10~11_dataout $end
+$var wire 1 S Mux10~12_dataout $end
+$var wire 1 T Mux10~44_pexpout $end
+$var wire 1 U Mux10~13_dataout $end
+$var wire 1 V Mux10~14_dataout $end
+$var wire 1 W Mux10~24_dataout $end
+$var wire 1 X Mux1~12bal_dataout $end
+$var wire 1 Y Mux1~22_pexpout $end
+$var wire 1 Z Mux1~28_pexpout $end
+$var wire 1 [ Mux1~34_pexpout $end
+$var wire 1 \ Mux1~19_dataout $end
+$var wire 1 ] Mux3~32_pexpout $end
+$var wire 1 ^ Mux3~36_pexpout $end
+$var wire 1 _ Mux3~42_pexpout $end
+$var wire 1 ` Mux3~31_dataout $end
+$var wire 1 a Mux2~26_pexpout $end
+$var wire 1 b Mux2~32_pexpout $end
+$var wire 1 c Mux2~38_pexpout $end
+$var wire 1 d Mux2~23_dataout $end
+$var wire 1 e Mux0~13_pexpout $end
+$var wire 1 f Mux0~16_pexpout $end
+$var wire 1 g Mux0~12_dataout $end
+$var wire 1 h Mux9~33_pexpout $end
+$var wire 1 i Mux9~38_pexpout $end
+$var wire 1 j Mux9~44_pexpout $end
+$var wire 1 k Mux9~16_dataout $end
+$var wire 1 l Mux9~17_dataout $end
+$var wire 1 m Mux9~18_dataout $end
+$var wire 1 n Mux9~19_dataout $end
+$var wire 1 o Mux9~25_dataout $end
+$var wire 1 p Mux6~4_dataout $end
+$var wire 1 q Mux5~7_dataout $end
+$var wire 1 r Mux10~31_dataout $end
+$var wire 1 s Mux9~31_dataout $end
+$var wire 1 t Mux7~8_dataout $end
+$var wire 1 u Mux8~7_dataout $end
+$var wire 1 v Mux7~14_dataout $end
+$var wire 1 w contador [1] $end
+$var wire 1 x contador [0] $end
+$var wire 1 y temp_ac~dataout [5] $end
+$var wire 1 z temp_ac~dataout [4] $end
+$var wire 1 { temp_ac~dataout [3] $end
+$var wire 1 | temp_ac~dataout [2] $end
+$var wire 1 } temp_ac~dataout [1] $end
+$var wire 1 ~ temp_ac~dataout [0] $end
+$var wire 1 !! temp_in~dataout [5] $end
+$var wire 1 "! temp_in~dataout [4] $end
+$var wire 1 #! temp_in~dataout [3] $end
+$var wire 1 $! temp_in~dataout [2] $end
+$var wire 1 %! temp_in~dataout [1] $end
+$var wire 1 &! temp_in~dataout [0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+x"
+0#
+b101000 $
+b101000 %
+x&
+1'
+1+
+0*
+0)
+0(
+12
+11
+00
+0/
+1.
+1-
+0,
+03
+x4
+05
+16
+x7
+08
+09
+0:
+0;
+0<
+0=
+0>
+1?
+x@
+xA
+0B
+1C
+0D
+1E
+1F
+1G
+1H
+1I
+0J
+1K
+1L
+1M
+1N
+0O
+0P
+1Q
+1R
+1S
+0T
+1U
+1V
+1W
+0X
+0Y
+0Z
+0[
+0\
+0]
+0^
+0_
+0`
+0a
+0b
+0c
+1d
+0e
+0f
+0g
+0h
+0i
+0j
+1k
+1l
+1m
+1n
+0o
+1p
+1q
+1r
+1s
+0t
+0u
+0v
+0x
+0w
+0~
+0}
+0|
+1{
+0z
+1y
+0&!
+0%!
+0$!
+1#!
+0"!
+1!!
+$end
+#1000
+1!
+18
+04
+1;
+1x
+1<
+0?
+1X
+1\
+1*
+0+
+1v
+1u
+1t
+0r
+1/
+10
+1,
+02
+#2000
+0!
+08
+14
+#3000
+1!
+18
+04
+0;
+#4000
+0!
+08
+14
+#5000
+1!
+18
+04
+1;
+1w
+0x
+0X
+1=
+0<
+0\
+1)
+0*
+0v
+0u
+0t
+1r
+0/
+00
+0,
+12
+#6000
+0!
+08
+14
+#7000
+1!
+18
+04
+0;
+#8000
+0!
+08
+14
+#9000
+1!
+18
+04
+1;
+1x
+1>
+0=
+1X
+1\
+1(
+0)
+1v
+1u
+1t
+0r
+1/
+10
+1,
+02
+#10000
+0!
+08
+14
+#11000
+1!
+18
+04
+0;
+#12000
+0!
+08
+14
+#13000
+1!
+18
+04
+1;
+0w
+0x
+0X
+0>
+1?
+0\
+0(
+1+
+0v
+0u
+0t
+1r
+0/
+00
+0,
+12
+#14000
+0!
+08
+14
+#15000
+1!
+18
+04
+0;
+#16000
+0!
+08
+14
+#17000
+1!
+18
+04
+1;
+1x
+1<
+0?
+1X
+1\
+1*
+0+
+1v
+1u
+1t
+0r
+1/
+10
+1,
+02
+#18000
+0!
+08
+14
+#19000
+1!
+18
+04
+0;
+#20000
+0!
+08
+14
+#21000
+1!
+18
+04
+1;
+1w
+0x
+0X
+1=
+0<
+0\
+1)
+0*
+0v
+0u
+0t
+1r
+0/
+00
+0,
+12
+#22000
+0!
+08
+14
+#23000
+1!
+18
+04
+0;
+#24000
+0!
+08
+14
+#25000
+1!
+18
+04
+1;
+1x
+1>
+0=
+1X
+1\
+1(
+0)
+1v
+1u
+1t
+0r
+1/
+10
+1,
+02
+#26000
+0!
+08
+14
+#27000
+1!
+18
+04
+0;
+#28000
+0!
+08
+14
+#29000
+1!
+18
+04
+1;
+0w
+0x
+0X
+0>
+1?
+0\
+0(
+1+
+0v
+0u
+0t
+1r
+0/
+00
+0,
+12
+#30000
+0!
+08
+14
+#31000
+1!
+18
+04
+0;
+#32000
+0!
+08
+14
+#33000
+1!
+18
+04
+1;
+1x
+1<
+0?
+1X
+1\
+1*
+0+
+1v
+1u
+1t
+0r
+1/
+10
+1,
+02
+#34000
+0!
+08
+14
+#35000
+1!
+18
+04
+0;
+#36000
+0!
+08
+14
+#37000
+1!
+18
+04
+1;
+1w
+0x
+0X
+1=
+0<
+0\
+1)
+0*
+0v
+0u
+0t
+1r
+0/
+00
+0,
+12
+#38000
+0!
+08
+14
+#39000
+1!
+18
+04
+0;
+#40000
+0!
+08
+14
+#41000
+1!
+18
+04
+1;
+1x
+1>
+0=
+1X
+1\
+1(
+0)
+1v
+1u
+1t
+0r
+1/
+10
+1,
+02
+#42000
+0!
+08
+14
+#43000
+1!
+18
+04
+0;
+#44000
+0!
+08
+14
+#45000
+1!
+18
+04
+1;
+0w
+0x
+0X
+0>
+1?
+0\
+0(
+1+
+0v
+0u
+0t
+1r
+0/
+00
+0,
+12
+#46000
+0!
+08
+14
+#47000
+1!
+18
+04
+0;
+#48000
+0!
+08
+14
+#49000
+1!
+18
+04
+1;
+1x
+1<
+0?
+1X
+1\
+1*
+0+
+1v
+1u
+1t
+0r
+1/
+10
+1,
+02
+#50000
+0!
+08
+14
+#51000
+1!
+18
+04
+0;
+#52000
+0!
+08
+14
+#53000
+1!
+18
+04
+1;
+1w
+0x
+0X
+1=
+0<
+0\
+1)
+0*
+0v
+0u
+0t
+1r
+0/
+00
+0,
+12
+#54000
+0!
+08
+14
+#55000
+1!
+18
+04
+0;
+#56000
+0!
+08
+14
+#57000
+1!
+18
+04
+1;
+1x
+1>
+0=
+1X
+1\
+1(
+0)
+1v
+1u
+1t
+0r
+1/
+10
+1,
+02
+#58000
+0!
+08
+14
+#59000
+1!
+18
+04
+0;
+#60000
+0!
+08
+14
+#61000
+1!
+18
+04
+1;
+0w
+0x
+0X
+0>
+1?
+0\
+0(
+1+
+0v
+0u
+0t
+1r
+0/
+00
+0,
+12
+#62000
+0!
+08
+14
+#63000
+1!
+18
+04
+0;
+#64000
+0!
+08
+14
+#65000
+1!
+18
+04
+1;
+1x
+1<
+0?
+1X
+1\
+1*
+0+
+1v
+1u
+1t
+0r
+1/
+10
+1,
+02
+#66000
+0!
+08
+14
+#67000
+1!
+18
+04
+0;
+#68000
+0!
+08
+14
+#69000
+1!
+18
+04
+1;
+1w
+0x
+0X
+1=
+0<
+0\
+1)
+0*
+0v
+0u
+0t
+1r
+0/
+00
+0,
+12
+#70000
+0!
+08
+14
+#71000
+1!
+18
+04
+0;
+#72000
+0!
+08
+14
+#73000
+1!
+18
+04
+1;
+1x
+1>
+0=
+1X
+1\
+1(
+0)
+1v
+1u
+1t
+0r
+1/
+10
+1,
+02
+#74000
+0!
+08
+14
+#75000
+1!
+18
+04
+0;
+#76000
+0!
+08
+14
+#77000
+1!
+18
+04
+1;
+0w
+0x
+0X
+0>
+1?
+0\
+0(
+1+
+0v
+0u
+0t
+1r
+0/
+00
+0,
+12
+#78000
+0!
+08
+14
+#79000
+1!
+18
+04
+0;
+#80000
+0!
+08
+14
+#81000
+1!
+18
+04
+1;
+1x
+1<
+0?
+1X
+1\
+1*
+0+
+1v
+1u
+1t
+0r
+1/
+10
+1,
+02
+#82000
+0!
+08
+14
+#83000
+1!
+18
+04
+0;
+#84000
+0!
+08
+14
+#85000
+1!
+18
+04
+1;
+1w
+0x
+0X
+1=
+0<
+0\
+1)
+0*
+0v
+0u
+0t
+1r
+0/
+00
+0,
+12
+#86000
+0!
+08
+14
+#87000
+1!
+18
+04
+0;
+#88000
+0!
+08
+14
+#89000
+1!
+18
+04
+1;
+1x
+1>
+0=
+1X
+1\
+1(
+0)
+1v
+1u
+1t
+0r
+1/
+10
+1,
+02
+#90000
+0!
+08
+14
+#91000
+1!
+18
+04
+0;
+#92000
+0!
+08
+14
+#93000
+1!
+18
+04
+1;
+0w
+0x
+0X
+0>
+1?
+0\
+0(
+1+
+0v
+0u
+0t
+1r
+0/
+00
+0,
+12
+#94000
+0!
+08
+14
+#95000
+1!
+18
+04
+0;
+#96000
+0!
+08
+14
+#97000
+1!
+18
+04
+1;
+1x
+1<
+0?
+1X
+1\
+1*
+0+
+1v
+1u
+1t
+0r
+1/
+10
+1,
+02
+#98000
+0!
+08
+14
+#99000
+1!
+18
+04
+0;
+#100000
